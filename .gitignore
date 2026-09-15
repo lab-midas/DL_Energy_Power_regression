@@ -1,0 +1,25 @@
+# Ignore some common file types
+*.pkl
+*.parquet
+*.pth
+*.pt
+*.mp4
+*.mkv
+
+
+# TensorBoard event files
+runs/**
+*.tfevents.*
+
+# SLURM output and error files
+*.out
+*.err
+
+# Ignore text files
+*.txt
+
+# Ignore the Data storage folders
+Data storage Siemens/**
+saved_datasets/**
+saved_csv_files/**
+saved_DL_model_outputs/**
